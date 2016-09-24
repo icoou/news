@@ -1,57 +1,697 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
+<html>
+
+<head>
     <meta charset="UTF-8">
-    <title>News by icoou</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-  </head>
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">News</h1>
-      <h2 class="project-tagline"></h2>
-      <a href="https://github.com/icoou/news" class="btn">View on GitHub</a>
-      <a href="https://github.com/icoou/news/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/icoou/news/tarball/master" class="btn">Download .tar.gz</a>
-    </section>
+    <title>新闻</title>
+    <link rel="stylesheet" href="stylesheet/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheet/css.css">
+    <link rel="stylesheet" media="screen and (max-width: 667px)" href="stylesheet/mobile.css">
+    <!-- <link rel="stylesheet" media="screen and (max-width: 768px)" href="stylesheet/pad.css"> -->
+</head>
 
-    <section class="main-content">
-      <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+<body>
+    <!-- 顶部导航栏 -->
+    <div id="header">
+        <div class="header row">
+            <div class="h-left col-md-6 col-sm-6 col-xs-7">
+                <a>每日故事</a>
+                <a>探索</a>
+            </div>
+            <div class="h-right col-md-6 col-sm-6 col-xs-5">
+                <div class="h-input">
+                    <span data-reactid=".0.$/.0.2.0.0.0"><svg class="search-button" role="button" width="35" height="35" viewBox="0 0 30 30" data-reactid=".0.$/.0.2.0.0.0.0"><g stroke="none" stroke-width="1" fill="none" style="fill-rule:evenodd;" data-reactid=".0.$/.0.2.0.0.0.0.0"><g stroke="#333" data-reactid=".0.$/.0.2.0.0.0.0.0.0"><g transform="translate(6.0, 5.0)" data-reactid=".0.$/.0.2.0.0.0.0.0.0.0"><path d="M12,12 L19.0710678,19.0710678" style="stroke-linecap:square;" data-reactid=".0.$/.0.2.0.0.0.0.0.0.0.0"></path><circle cx="7" cy="7" r="7" data-reactid=".0.$/.0.2.0.0.0.0.0.0.0.1"></circle></g></g></g></svg></span>
+                    <input type="text" class="h-r-input">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 结束顶部导航栏 -->
+    <!-- 开始轮播 -->
+    <div id="wrapper" class="container-fluid">
+        <div class="row pagehome">
+            <div class="banner">
+                <span class="arrow-left"></span>
+                <span class="arrow-right"></span>
+                <div class="swiper-wrapper">
+                <a><img src="img/deng.jpg">
+                        <div>
+                            <h3>这个工作室用大理石、黄铜与玻璃，组合打造创意新品</h3>
+                            <p></p>
+                        </div>
+                    </a>
+                    <a><img src="img/niu.jpg">
+                        <div>
+                            <h3>梦工厂 38 亿美元把自己卖了，这其实不是一件悲伤的事情</h3>
+                            <p></p>
+                        </div>
+                    </a>
+                    <a><img src="img/mo.jpg">
+                        <div>
+                            <h3>《魔兽》首映观影团开组，来 T、来 DPS</h3>
+                            <p></p>
+                        </div>
+                    </a>
+                    <a><img src="img/deng.jpg">
+                        <div>
+                            <h3>这个工作室用大理石、黄铜与玻璃，组合打造创意新品</h3>
+                            <p></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="pagination">
+                    <span class="swiper-pagination sp-color"></span>
+                    <span class="swiper-pagination"></span>
+                    <span class="swiper-pagination"></span>
+                </div>
+            </div>
+            <!-- 结束轮播 -->
+            <div id="content">
+                <div class="technology item">
+                    <div class="item-title col-md-12">
+                        <h2>科技</h2>
+                    </div>
+                    <div class="item-content">
+                        <div class="item-padding col-md-2 col-sm-4 col-xs-12">
+                            <div class="item-news ">
+                                <img src="img/tel/27770.jpg">
+                                <h3>亚马逊收到了一个好消息：它的会员留存率惊人</h3>
+                                <p>经过了 11 年的发展，亚马逊的 Prime 会员服务变成了一门重要的生意。根据今年年初分析师的预测，圣诞购物季后，Prime 会员数将达到 5000 万，年费收入就达到了 50 亿美元。 除了订阅用户数变成了一个相当大的规模外，一份来自芝加哥的投资机构消费者情报研究机构（CIRP）的研究表明，使用 Prime 会员服务越久，用户似乎更愿意续订，也就是说使用越久留存率越高。 这对亚马逊来说，是个好消息。 这份报告的调查对象是 2108 位美国亚马逊用户，他们正在或者曾经使用过 Prime 会员服务。CIRP 会每隔 3 个月更新一次他们 Prime 会员服务的续订率。 对于亚马逊来说，Prime 会员服务在 2005 年上线时，只是个两日达送货的“补贴”项目，但靠更快的送货服务，Prime 会员开始下更多的订单。亚马逊 CEO 杰夫·贝索斯也谈到了 Prime 会员生意背后的逻辑，称 Prime 用户这样做的一个原因，就是希望把年费的价值发挥到最大。 但增加了更多数字内容的 Prime 变成了亚马逊非常重要的一个产品。Prime 会员服务希望用户将购物扩展到消费更多的数字内容，这也导致了亚马逊在花更多的钱投资更多的内容，甚至自己深入到视频的产业链中做电影发行、签约节目主持人、导演，推出自制内容。 贝索斯曾在今年 4 月份的内部邮件中称，亚马逊第三方交易平台 Marketplace、Prime 会员服务以及 AWS 云计算服务这三个产品，已经成为了亚马逊的三大支柱。</p>
+                            </div>
+                        </div>
+                        <div class="item-padding col-md-2 col-sm-4 col-xs-12">
+                            <div class="item-news">
+                                <img src="img/tel/27769.jpg">
+                                <h3>戴上口罩也能认出你，这是微软在开发的新技术</h3>
+                                <p>微软研究院（Microsoft Research）是一个负责产出前沿科技项目的部门，比如研究植物怎么交流对话。最近他们在琢磨的事，是怎么用人体自带的电信号做室内识别。 一篇论文描述了这个名叫 Platypus（鸭嘴兽）的系统是怎么工作的。它的灵感来自鸭嘴兽的捕食方式，为了避免眼睛耳朵受到损伤，这种动物在潜入水中时会仅仅依靠电信号判断猎物的方位。 按照论文的说法，人类在行走时身体的电位会发生变化，Platypus 利用三个以上的电位传感器，能在 2 米内对这种微小的变化做出识别，从而判断人类的位置、动作和身份。 人体识别这事并不稀奇，Platypus 认为他们的优势在于不依赖任何其他电子附件，比如帮助确定位置和身份的 NFC 磁贴或是智能手表。 而这新技术的应用场景是，可以帮助机器人更好地判断人类、动物或其他物体，提高他们的认知能力。 研究团队说，Platypus 的准确度可以控制在 0.5 英尺（约 16 厘米）的范围内，实际测试中，它能在 5 秒之内以 94% 的准确度识别 4 个人。 但准确性受到人数的影响，它的“视野”范围内有 30 人时，准确度会降到 75%。 这又是一个不用指望现实性的新技术，和微软研究院的其他项目一样，Platypus 现在停留在实验阶段，距离现实还有很远很远。
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item-padding col-md-2 col-sm-4 col-xs-12">
+                            <div class="item-news">
+                                <img src="img/tel/27803.jpg">
+                                <h3>之前秘密召开会议的人类基因组编写计划，正式公开了</h3>
+                                <p>科学家周四正式宣布启动了一项为期 10 年的人类基因组编写计划，该计划旨在大规模地提高化学合成 DNA 的能力，其目标之一就是人工创造出一套完整的人类基因组。 该项目的计划于上个月泄露后，已经激起了一场伦理辩论，因为通过化学手段合成一整套人类基因组，从理论上来说就意味着，孩子可以在没有亲生父母的条件下诞生。 一些批评人士也对今年 5 月在哈佛大学医学院召开的项目秘密讨论会表示反对。反对机构称，他们之所以不公开，是怕殃及与该项目有关的论文在一份有同行审阅的科学期刊上发表的利益。相关文章于周四发表在《科学》（Science）期刊上。 项目提案的作者称，实现大型基因组的人工制造，会带来许许多多科学和医学的进步。举例来说，这可能会让生物体有能力抵抗所有病毒，或者能将猪的器官移植给人类。 这项计划的运作方是一家新的非营利组织，叫做“工程生物学卓越中心（Center of Excellence for Engineering Biology）”，它将通过各种公开和私人渠道，在今年内筹集 1 亿美元的资金。</p>
+                            </div>
+                        </div>
+                        <div class="item-padding col-md-2 col-sm-4 col-xs-12">
+                            <div class="item-news">
+                                <img src="img/tel/27665.jpg">
+                                <h3>欧盟将出新提案，希望成员国不要对共享经济太狠</h3>
+                                <p>欧盟近期出台一则新提案，希望限制欧盟成员国对 Uber，Airbnb 这类共享经济类创业公司的打压。 而在此前，除了英国外，欧洲其他一些国家对这类公司并不是特别友好。 Uber 就曾受到了来自法国、德国、西班牙等国家在政策方面的打压。 2015 年 6 月，法国曾以经营非法出租车公司为由逮捕了 Uber 在法国的两名负责人。 Airbnb 在柏林房主曾因其将私人住宅作为出租用途，被罚 11.2 万欧元的罚款。 据悉，该提案将与本周四正式公布。在提案中，欧盟委员会称，各成员国对这些新兴网络服务的任何限制都应该有正当的理由，并希望欧盟的各成员国对这些服务的打压应该作为最后的手段。提案关于 Airbnb 的条款中就提到，不建议对 Airbnb 的主人出租房屋的天数进行限制。 对于 Airbnb 和 Uber 这类共享型公司来说，新提案无疑是个好消息。 金融时报称，欧盟此次出台该草案也是希望通过这个举措来缓解欧盟跟美国的紧张关系。因为此前，欧洲曾想要限制 Google、苹果等跨国公司对欧洲市场的控制，引起美国的不满。 </p>
+                            </div>
+                        </div>
+                        <div class="item-padding col-md-2 col-sm-4 col-xs-12">
+                            <div class="item-news">
+                                <img src="img/tel/27549.jpg">
+                                <h3>Jawbone 曾经畅销的蓝牙音响，现在要转手卖了</h3>
+                                <p>在智能手环之前，Jawbone 最为人所知的其实是它的便携式蓝牙音响，但现在要卖了。 《财富》杂志援引信源消息称，以智能手环出名的厂商 Jawbone 计划出售旗下的蓝牙音响 Jambox 业务，将公司的未来堵在可穿戴设备上。据称，Jawbone 已经在寻找潜在的买主，并且正在处理第三方经销商处的剩余音响产品。 这是 Jawbone 公司最新一次调整旗下业务。2010 年年底，当时的 Aliph 公司（2011 年才改名 Jawbone）推出了售价 200 美元的便携式蓝牙音响，开辟了最初头戴式耳机之外的新产品线，比 Jawbone 智能手环还早一年。 Jambox 蓝牙音响在推出后成为了一款受欢迎的产品，在苹果商店内成为畅销品。Ben Horowitz（a16z 合伙人，《创业维艰》的作者）曾在 2011 年表示，苹果商店内的 Jambox 销量是同类产品的 10:1，他所在的风投基金 Andreessen Horowitz 在当时领投了一笔对 Jawbone 的 4900 万美元的投资。第二年 Jawbone 还推出了卖更贵的 Big Jambox，售价 300 美元。</p>
+                            </div>
+                        </div>
+                        <div class="item-padding col-md-2 col-sm-4 col-xs-12">
+                            <div class="item-news">
+                                <img src="img/tel/Tesla.jpg">
+                                <h3>都说要淘汰汽油车，电动车一定更环保么？</h3>
+                                <p>Twitter 上流传着硅谷现在最流行的两个观点，其中一个是：“有了 Uber 以后，大家就不用再买车。” 但很快，随着特斯拉的推出，这个观点就迅速变成了 “我买了一辆特斯拉 Model X。” 拥有一辆特斯拉在无形中似乎已经变成了这些“硅谷精英”们的象征。 但不仅是在硅谷，电动车之热几乎是全球性的。比如挪威的主要党派最近刚刚通过一项在 2025 年前停止生产全部燃油汽车的计划。 一方面这得益于各国政府对电动车的补贴政策。美国的一些州对电动车实行低税奖励政策，最高达到了 13500 美元的额度，这比购买一辆全新的福特嘉年华还高。荷兰政府下议院最近还提出了一项要在 2025 年之前完全取缔汽油车与柴油车的法案。 除此之外，全世界有 20 多个政府都对购买电动车的人实行着不同程度的补贴。挪威政府更是拿出了约合 40 亿人民币对电动车进行税收补贴。 与其他国家单纯补贴电动车车主的政策相比，中国推行的力度显得更有诚意。 在中国 2012 年出台的一份名为《节能与新能源汽车产业发展规划（2012—2020年）》规划中曾明确指出“ 2020 年，纯电动汽车和插电式混合动力汽车生产能力达200 万辆、累计产销量超过 500 万辆。” 但有个问题的争论其实没有结束，电动车一定更环保么？ 传统汽车行驶中排出尾气中的二氧化碳常被各国政府和环保组织视作温室效应的元凶。而在行驶过程中根本没有尾气的电动车看上去显然更安全。 但电动车不是孤立存在的。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 科技结束 -->
+                <div class="technology item">
+                    <div class="item-title col-md-12">
+                        <h2>商业</h2>
+                    </div>
+                    <div class="item-content">
+                        <div class="item-padding col-md-2 col-sm-4 col-xs-12">
+                            <div class="item-news">
+                                <img src="img/company/27816.jpg">
+                                <h3>从连锁大型健身房出来后，他们如何创办了自己的健身工作室？</h3>
+                                <p>筹备了 3个月后，党宁远的健身工作室 DNF 健身空间在 2014 年年底，在上海浦东开业了。工作室在崂山路上，朝北 2.3 公里是商务及购物中心八佰伴，朝西 2.1 公里是高端小区世贸滨江花园。 党宁远对这个地理位置还算满意。他研究了浦东新区，最后把理想店址缩小到 4 个选项里：八佰伴、金融中心陆家嘴、高新技术开发区张江高科，还有新 CBD 竹园商贸区。 这些地方符合他对目标消费者的定位，“白领及以上，经理管理级别的”，他们愿意且有能力支付 350 至 480 元一节的健身私教课。按照每周锻炼 3 次的频率，这些消费者每人每月在健身方面的预算超过 4000 元。 起初听说每月房租 7 万元的时候，党宁远犹豫过，他担心自己吃不下这块 500 平米的空间。他本想找一个 300 平米左右的“试一试”。不过，教练们在等着他“开伙”，而且在找到这个地方前，他因为中介不实承诺而耽误了一个月，时间紧迫的情况下，他还是租下了这块地
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item-padding col-md-2 col-sm-4 col-xs-12">
+                            <div class="item-news">
+                                <img src="img/company/27640.jpg">
+                                <h3>131 年了，这份地方报纸还活得不错，是靠运气吗？</h3>
+                                <p>纽约市东汉普顿区电——大卫·拉特雷（David Rattray）是《东汉普顿星报》（The East Hampton Star）的工作人员。每当他办公室窗户外的树叶重回枝头时，就意味着一件事即将发生：大混乱的到来。 本周四早上，树叶呈现出青葱的嫩绿色。作为《星报》的编辑，拉特雷先生将全体员工召集到中央新闻编辑部，准备一起讨论研究今年夏季的报道计划。从阵亡将士纪念日（Memorial Day，指每年五月的最后一个星期一——译者注）的那个周末开始，他们就要认真地开始为夏季版本的报纸做好各项准备。 《星报》的新闻编辑部狭窄而局促，墙上还留有几年前形成的裂痕。当时，一群工程师在临近报纸截稿日期之前几天来到编辑部，将这个以雪松木为装饰外墙的房子恢复到了正常的垂直状态。据悉，《星报》所处的房子是拉特雷先生家族的祖产，建于 1900 年。对于一座老房子而言，那次整修堪称是“生死攸关”。 （在房屋整修期间，员工们坚持努力工作，保证了每周发行一期的《星报》能够按时出版） 当拉特雷先生浏览下一期报纸的新闻故事内容时，艾琳·西尔弗曼（Irene Silverman）一直观察着一只在她办公桌上来回游荡的盲蛛。从 1968 年开始，西尔弗曼女士就一直担任《星报》的特约编辑（editor at large）。 第一个新闻内容是“阵亡将士纪念日大混乱的事后剖析”。经历了去年的混乱后，今年镇政府禁止人们于阵亡将士纪念日期间在小镇范围内举办疯狂的派对。这是该项措施出台后第一次接受实践的检验。 </p>
+                            </div>
+                        </div>
+                        <div class="item-padding col-md-2 col-sm-4 col-xs-12">
+                            <div class="item-news">
+                                <img src="img/company/27612.jpg">
+                                <h3>如果最近去日本，可以看看这个便利店展览</h3>
+                                <p>日本 d47 博物馆最近搞了一个展览，展览的形态是一个快闪便利商店 「d mart 47」，人们不仅可以来这里看展览，还可以买到日本各地的特产商品。 这个展览的便利店空间设计、商品陈设、价格标示、内用座椅、购物篮、店员的员工制服、甚至是进门的特殊音效，都跟日本普通的便利店没什么两样。 里面有饮料冷藏库、货架、生活用品区、杂志图书区，商品都是来自地方上的、经过挑选的酒水、饼干、毛巾、袜子等，并且都清晰地标有售价，注明产地。值得一提的杂志图书区，都是一本本介绍各地旅游、工艺的刊物。 主办方希望借由这个展览，重新思考便利商店的意义与未来。 在日本，有着超过五万家的便利商店，每个月的消费人次超越 12 亿人次，便利商店是一个再日常不过的场所，d47 希望这个天天跟人打交道的场所里多一些 Long-Life Design 的商品。 d47 博物馆是 D&DEPARTMENT 开设在复合型商场 Shibuya Hikarie 八楼的创意空间。 D&DEPARTMENT 提倡的 Long-Life Design 指的是“那些能长久使用的东西是好东西”。 他的创始人长冈贤明正是因用一个 honda 废弃坐垫重新设计了一把长得像昆虫一样的新椅子在日本声名鹊起，继而在 2000 年，东京开设了这家店，专门出售二手的生活用品和再造旧物。 创立这几年来，d47 一直在挖掘地方特产、地方名物，宣扬地方特色丰富的精湛工艺，这也是「d mart 47」旁边的设计商店存在的意义。</p>
+                            </div>
+                        </div>
+                        <div class="item-padding col-md-2 col-sm-4 col-xs-12">
+                            <div class="item-news">
+                                <img src="img/company/27585.jpg">
+                                <h3>消费环境和消费者都变了，百货公司该如何应对？</h3>
+                                <p>今年第一季度，各大百货公司的财务表现继续下滑。梅西百货（Macy’s）、 诺斯壮（Nordstrom）、柯尔（Kohl’s）、潘尼百货（J.C. Penney ）等同店销售额均有不同程度下降。门店数量也在不断削减：梅西最近关闭了 36 家，柯尔宣布将关闭 18 家，而潘尼百货也计划关闭 7 家。 百货公司低迷的财务表现已经持续了数年。可能的影响因素有很多，包括网购和电商的兴起、80 后 90 后对消费体验而非产品本身的偏好，以及经济低迷时期的优惠策略让消费者对打折商品更加依赖。 根据咨询公司 Green Street Advisors 的统计，全美还需关闭 800 家门店，也就是总数的 20%，才能让百货行业从过度饱和回到一个比较健康的状态。 不过从另一个方面来说，关闭门店也是百货公司积极调整销售策略的表现。在这种形势下，比起反复强调市场如何不景气，探讨如何应对意义更大。
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item-padding col-md-2 col-sm-4 col-xs-12">
+                            <div class="item-news">
+                                <img src="img/company/27535.jpg">
+                                <h3>像蜘蛛侠一样爬上摩天大楼，用的竟然是吸尘器</h3>
+                                <p>为了验证旗下无线吸尘器 CordZero K94SGN 吸力超强，LG 把吸尘器的吸头替换成吸盘，邀请 Blair-Coyle 完成一项挑战，依靠吸尘器的吸力攀爬 460 英尺高的摩天大楼（相当于 140 米高）。 这座摩天大楼位于韩国第二大港口城市仁川的松岛新城。“松岛新城”被称为历史上最大的私人房地产开发项目，占地约 607.5 公顷，全是填海而造，被拿来和迪拜和上海的地产项目相比较。 LG 选择在这标志性的地点进行这项挑战，事先进行了大量的测试和防护工作。你可以看到 Blair-Coyle 周身都配备了保险装置，除了选手自身的重量，吸尘器的吸力还要支撑两只 CordZero 的重量，合在一起总计约 70 kg。 在今年的拉斯维加斯 CES 大会上，LG 发布了 CordZero 系列的升级产品，马达比传统吸尘器平均体积小 76%、轻 65%、效率提升 24%。 这款吸尘器属于无线设备，依靠 80V 锂电池直接供电，在普通模式下续航时间为 40 分钟，而 Blair-Coyle 面对的显然是 hardest 模式。虽然她最终在 30 分钟内完成了挑战，但在中途曾停顿片刻用来置换设备。
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item-padding col-md-2 col-sm-4 col-xs-12">
+                            <div class="item-news">
+                                <img src="img/company/siji.jpeg">
+                                <h3>我们和四季酒店高管聊了聊，他说一切都在变化</h3>
+                                <p>“当我刚进入这个行业的时候，酒店业有种种严格的规定。比如说，你应该把水杯的把手朝向四点钟的方向，三片柠檬要怎么放……但现在这些规矩不如和客人建立起联系感（sense of connection）重要了。他们希望有面对面的联系，更希望在酒店里有个人对个人，终端对终端的联系（end-to-end）。” 说这句话的是四季酒店集团亚太区酒店运营总裁祈伟立（William Mackay），在 ILTM（国际豪华旅游博览会） Asia 的会议后，他和《好奇心日报》聊了一下奢华酒店的变化。 四季酒店目前在中国共有 8 家，分别在北京，上海，上海浦东，杭州西湖，广州，香港，深圳和澳门。而和它定位类似的丽兹·卡尔顿有 12 家酒店，凯宾斯基开了 22 家，香格里拉酒店有 21 家。 奢华酒店和高端旅游在不断地变化中。“千禧一代”和年轻人成为了酒店密切关注的对象，这其中包括（很多酒店集团都在谈的） 完善网站体验和推出 App，房间里配备更多的插头，来应对人们随身携带多个电子设备的情况。 四季酒店也开始注意一种“非正式化”的潮流，这些包括酒店员工衣着的变化（比如说经理不是在任何场合都系领带穿西服）；另外，随着消费者变得越来越繁忙，而且可能花很多时间在自己的电子设备上，四季酒店推出了像“憩咖啡”这样随行即取（Grab and Go）的咖啡吧和餐吧。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 结束 商业-->
+                <div class="technology item">
+                    <div class="item-title col-md-12">
+                        <h2>生活与家具</h2>
+                    </div>
+                    <div class="item-content">
+                        <div class="item-padding col-md-2 col-sm-4 col-xs-12">
+                            <div class="item-news ">
+                                <img src="img/life/wang.jpg">
+                                <h3>「万物简史」鸦片战争中那些怪力乱神的打法</h3>
+                                <p>鸦片战争无疑是一场实力悬殊的不对称战争，而中方对一些怪力乱神打法的痴迷，无疑加速了一边倒的局面发生。 所谓怪力乱神的打法，一方面是指前现代的、过去一厢情愿依靠人力的打法，另一方面是指那些冀望于种种匪夷所思的法术的战法，当然很多时候两者也会同时出现。 作为第一批开眼看世界的清朝官员，林则徐对外界形势的认知比那些颟顸的权贵要高出很多。然而囿于时代的限制，他对近代科技的发展及其体现在武器上的威力始终比较隔膜。比如他不仅认为英国人喜欢肉食，如果没有中国的茶叶，长期不免会腹胀而死，还认为英国人腿脚僵硬不擅陆战，其优势主要在于船坚炮利，善于海战，因此只要破解了英国人的海上优势，他们自然会知难而退。 由于比较相信“民气可用”，林则徐指望由军队和民间高手组成的敢死队将装满炸药和油料的火船靠近英国军舰，然后发动火攻退敌。所谓民间高手主要是指那些能够在水上漂的江湖术士，虽然后来经实践证明这些人只不过擅长在浅水中游泳而已，但林则徐执意将他们纳入麾下，理由是这样他们就不会投靠英军为夷人所用。 后来由于英军北上欲寻求与大清朝廷“直接对话”，林则徐的战法没有得到施展，当然在他看来这是因为他战备得力而令敌军不得不避其锋芒。不过等第二年英军从天津折返回广州时，林则徐的继任者们就有机会实践他的战法，结果自然是一败涂地。
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item-padding col-md-2 col-sm-4 col-xs-12">
+                            <div class="item-news ">
+                                <img src="img/life/music.jpeg">
+                                <h3>他设计了一个“音乐迷宫”，串联了法兰克福18个景点</h3>
+                                <p>建筑和音乐看起来是两种毫不搭界的艺术，但不少建筑理论或实践者都会指出两者的联系，比如从形式的角度看，建筑空间和音乐乐曲都被简化成数字形式来记录。学音乐出身的建筑师丹尼尔·李博斯金（Daniel Libeskind）就说“建筑是另一种形式的音乐，它如音乐一样想要平衡。” 德国法兰克福老剧院（ Alte Oper Frankfurt）想要办一场与建筑结合的音乐会，他们委托丹尼尔·李博斯金一起策划一个 One Day in Life 的活动。选择法兰克福的 18 个地方串成一条路线，每个地方配合环境分别举办全天的古典音乐会，在间隔的 1 到 2 个小时里，游客就可以自行在这 18 个地方穿梭，到达下一个音乐会的场地。每个人至少预定三场音乐会，而在 5 月 21 日到 22 日两天的时间里，总共举办了 75 场。 丹尼尔·李博斯金将总路线画出来设计了一个“音乐迷宫”（Musical Labyrinth）放在广场上，作为活动的一个路线。 这 18 个地方有像法兰克福老剧院、博物馆等传统景点，更多的却是有轨电车、消防站、图书馆的储藏室、拳击馆、体育场等城市里的公共区间，这些看起来非常日常的地方绝不可能举办古典音乐会，但这就是主办方的想法，让民众“更积极地参与音乐”。居住在当地人们像观光客一样走进这些熟悉的城市角落，跟随着似乎有些遥远的古典音乐，“重新发现自己生活”。</p>
+                            </div>
+                        </div>
+                        <div class="item-padding col-md-2 col-sm-4 col-xs-12">
+                            <div class="item-news ">
+                                <img src="img/life/live.jpg">
+                                <h3>全球最长的铁路隧道在瑞士开通，还有超现实开幕式</h3>
+                                <p>世界上最长、最深的火车隧道 6 月 1 号在瑞士正式开通。今年 12 月隧道全线开通后，乘客从瑞士苏黎世到意大利米兰，将节省一个小时的旅程。 这条隧道名为“圣哥达基线隧道”（Gotthard base tunnel），位于瑞士东南部，南起小镇 Bodio，北至 Erstfeld，长达 57.5 公里，取代了日本于 1988 年落成的 Seikan 隧道（53.9公里），成为世界之最。 为庆祝这条造价 120 亿美元、耗时 17 年建成的浩大工程，一场不走寻常路、超现实风格的开幕式在隧道北端的 Erstfeld 上演。 毛色各异的野山羊、插着翅膀的大头天使、穿橙黄色制服的建筑工人……600 个舞蹈演员、杂技演员、歌手等装扮成不同角色，由德国戏剧导演 Volker Hesse 带领。根据隧道官网介绍，这个“和项目分量相对应的开幕式”，其目标是“展示瑞士价值，诸如创新、精确、可靠”。</p>
+                            </div>
+                        </div>
+                        <div class="item-padding col-md-2 col-sm-4 col-xs-12">
+                            <div class="item-news ">
+                                <img src="img/life/lufu.jpg">
+                                <h3>卢浮宫前的玻璃金字塔被“藏”起来了，谁干的？</h3>
+                                <p>法国街头艺术家 JR 在卢浮宫搞了一个装置艺术作品“消失的金字塔”，行人站在特定的角度拍摄，可以完整地拍摄到玻璃金字塔后面八百多年的古典建筑。 JR 主要通过在玻璃金字塔前面贴黑白照片实现，这些墙纸按照一比一的比例还原金字塔顶身后的历史建筑，贴照片的工程进行了将近两天时间，卢浮宫在其官方Instagram 账号上还连续更新了这个项目的进程。 据悉，这个项目是 JR 首个没有人物面部出现的作品。之前，他因为在城市的建筑物上展示巨幅照片而出名。 五年前，他也来过上海举办了名为“城市的褶皱”的个展，在上海一些具有代表性的、或者正在拆迁的建筑墙壁上张贴过一组普通老年人的巨幅画像为主题的艺术作品，来展示现代城市变迁的速度往往比老人们的年华流逝得更快。
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item-padding col-md-2 col-sm-4 col-xs-12">
+                            <div class="item-news ">
+                                <img src="img/life/xing.jpg">
+                                <h3>「这世界」昨天说了杀死猩猩的事，动物园和小孩妈妈都出来说话了</h3>
+                                <p>昨天故事收到了许多的留言，大致分为三类：探讨尊重生命的，研究为什么麻醉枪不是一个理想选择的，以及讨论小男孩父母是否该受到惩罚的。 第一个问题有点大，也真的很难给出一个标准答案，但关于后面两个问题，确实有了最新进展。 首先，是为什么一定要射杀而不是用麻醉枪的问题。 昨天，动物园园长 Sharon Redrobe 出面做了些解释。 “这是个悲剧。大猩猩是一种非常危险的动物，而飞镖麻醉针一般要 5-10 分钟才会起效。但大猩猩一个巴掌就可以杀死一个孩子。”她在 Twitter 上说。</p>
+                            </div>
+                        </div>
+                        <div class="item-padding col-md-2 col-sm-4 col-xs-12">
+                            <div class="item-news ">
+                                <img src="img/life/zhan.jpg">
+                                <h3>「万物简史」太平洋战争中的资源战</h3>
+                                <p>兵马未动，粮草先行。一国在进行战争时，其中最重要的一项任务是国家能够获得足够的经济资源去制造大量武器，为战场上的武装部队提供大量军备。美国及其盟国之所以能够获胜，就是因为它们有足够的资金，而且能够动用国内外丰富的自然资源和劳动力，构建起远远超过日本的战争机器。 交战各国除了要在资金上支持战时经济之外，还要确保足够的原材料供应，在这方面同盟国占据着绝对优势，因为它们能够迅速取得大量的自然资源供应，其中最重要的是化石燃料，如石油美国的公司——如埃克森石油公司——出产全世界 2/3 以上的石油，英国也能从中东地区获得供给。就产量而言，单美国在 1942 年至 1945 年间就生产了 65 亿桶石油。日本能从中国东北弄到煤，但是其数量要比同盟国少得多。 在战争之前，日本就预料到与美国开战之后，其进口线路定然会被美国切断，因此日本储备了相当多的石油等必要物资。然而，鉴于日本政府和军方都没有想到战争会持续这么久，因此储备量十分有限，所以日本不得不继续依赖进口。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 结束 生活与家具-->
+                <div class="technology item">
+                    <div class="item-title col-md-12">
+                        <h2>艺术与文化</h2>
+                    </div>
+                    <div class="item-content">
+                        <div class="item-padding col-md-2 col-sm-4 col-xs-12">
+                            <div class="item-news ">
+                                <img src="img/art/color.jpg">
+                                <h3>潘通色卡又多了一个颜色，叫 Jason Wu 灰</h3>
+                                <p>国际通用的标准色卡潘通又推出了一个新颜色—— Jason Wu 灰。 这个包含了 90% 白色和部分蓝色灰色是潘通和服装设计师 Jason Wu 合作开发的颜色。 Jason Wu 称它为“完美灰色”。 “这是 Jason Wu 和潘通色卡一起合作的专属灰。” Jason Wu 在它的官方 Instagram 上写道，“当你要选择颜色的时候，潘通色卡就是标准，这是我们每天都要用的东西。”</p>
+                            </div>
+                        </div>
+                        <div class="item-padding col-md-2 col-sm-4 col-xs-12">
+                            <div class="item-news ">
+                                <img src="img/art/yi.jpg">
+                                <h3>山本耀司聊了聊Y-3，他说他想让运动装更优雅</h3>
+                                <p>山本耀司和阿迪达斯合作成立时尚运动品牌 Y-3。14 年之后，山本耀司又往前跨了一步，今年春天，Y-3 推出了“纯正”的运动胶囊系列 Y-3 SPORT。 i-D 最近走访了山本耀司在东京的工作室，和他聊了聊 Y-3 系列， Y-3 的创作灵感，还有为什么要做春季刚推出的运动胶囊系列 Y-3 SPORT ，当然还有他对时装设计的一些看法。 “ 2000 年左右，我觉得时尚很无聊。有时候我去街上晃一晃，见不着一个人穿我的设计，那种感觉很孤独。同时，我在纽约看到一些商人在工作日用运动鞋搭配西装。这种奇怪的混搭很有魅力，也给了我灵感。这也是 Y-3 能诞生的原因之一， Y-3 的诞生也反应了时代精神，我们制造了一些前所未有的东西。”</p>
+                            </div>
+                        </div>
+                        <div class="item-padding col-md-2 col-sm-4 col-xs-12">
+                            <div class="item-news ">
+                                <img src="img/art/newsyork.jpg">
+                                <h3>这个纽约男袜品牌，说袜子是它们和世界交流的方式</h3>
+                                <p>袜子也许是整套行头中最容易被忽视的单品。不少男生大概很少考虑球鞋或皮鞋与裤腿之间的那段距离需要填充些什么。即使抛开它在男性消费中的地位不谈，比起腕表、运动鞋、T 恤、棒球帽等 Logo 鲜明、内涵丰富的单品，想给袜子说个“潮”一点的故事，好像也难得多。 美国有一对兄弟不这么想。2014 年 3 月，Sage Dish 与 Cody Dish 开始在 Kickstarter 上为自己的家族男袜品牌 Ace & Everett 筹款，主打“美国制造”的概念。</p>
+                            </div>
+                        </div>
+                        <div class="item-padding col-md-2 col-sm-4 col-xs-12">
+                            <div class="item-news ">
+                                <img src="img/art/bei.jpg">
+                                <h3>北京三里屯这家韩国墨镜店，把自己打扮成了艺术展</h3>
+                                <p>5 月 27 日，Gentle monster 在北京的店铺就开张，当天只针对媒体和嘉宾开放，并不对外销售。这是 Gentle monster 在中国第一家店铺，也是旗舰店。除此之外，它在韩国和纽约有另外两家旗舰店。 成立于 2011 年的 Gentle Monster 现在算是墨镜品牌当中的潮牌，全智贤、BigBang 的 GD、李敏镐、金宇彬、玄彬、尹恩惠等韩流明星都在出演的电视剧里、街拍照片里戴过它。它的另一个名号是：制作适合亚洲人扁平脸型的墨镜。</p>
+                            </div>
+                        </div>
+                        <div class="item-padding col-md-2 col-sm-4 col-xs-12">
+                            <div class="item-news ">
+                                <img src="img/art/won.jpg">
+                                <h3>60 年来，这个品牌用多彩条纹和针织面料创造了一种风格</h3>
+                                <p>如果你喜欢条纹，大概知道高缇耶那著名的布列塔尼条纹，优雅的香奈儿女士还狠狠地推崇过它一把。那么， Missoni 的条纹呢？就是那个针织、彩色、条纹“三剑合并” 的 Missoni ，是否有所耳闻？ Missoni 诞生在 1951 年的意大利，它的第一大特色是擅长做针织品，还有就是将条纹和针织材料结合。曾有人形容 Missoni 这种流动跳跃的条纹是“可穿在身上的艺术品”，也有人说这种条纹针织的结合就是休闲运动时尚风的鼻祖。65 年之后，这个品牌的花哨美学依然让它生意兴隆，2013 年，Missoni 的收入达 1.7 亿欧元。</p>
+                            </div>
+                        </div>
+                        <div class="item-padding col-md-2 col-sm-4 col-xs-12">
+                            <div class="item-news ">
+                                <img src="img/art/yifu.jpeg">
+                                <h3>没有了裸男营销，A&F 还要复刻它的户外复古款</h3>
+                                <p>星期三，Abercrombie & Fitch （后文简称 A&F）在北京做了 2016 年秋冬的新品预览。 2014 年，这个曾经以裸男营销和常春藤风而著名的美国青少年品牌才第一次进入中国市场。而这次选在时代美术馆举办新品预览，是 A&F 在北京做过的第三次新品预览。 当天，同 Abercrombie & Fitch 一起展出的还有它的子品牌 Hollister 。两个品牌的陈列算是把位于中环世贸 37 层的展厅一分为二，地上铺了猩红色的地毯，灯光明亮，用了仿旧的木制背景板和陈列架。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 结束 艺术与文化 -->
+                <div id="technology">
+                    <div class="item-title col-md-12">
+                        <h2>旅游</h2>
+                    </div>
+                    <div class="item-content">
+                        <div class="item-padding col-md-2 col-sm-4 col-xs-12">
+                            <div class="item-news ">
+                                <img src="img/travel/su.jpg">
+                                <h3>「这世界」有个素食主义者为了证明不柔弱去爬珠峰，结果……</h3>
+                                <p>为了证明素食主义者也可以做任何事，她和丈夫罗伯特一起来到了尼泊尔攀登珠峰。在爬山的时候一切还很顺利，并且成功登顶。但在下山的过程中，她病倒了，遭受了强烈的高原反应，并在上周六因缺氧而死。 玛利亚是莫纳什大学的讲师。出发前，玛利亚曾接受过采访，表明过自己登山的目的。“人们对素食主义者有一种营养不良和柔弱的偏见。”她说，“我们想通过攀登七大洲的最高峰证明，素食主义者可以做任何事。”
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item-padding col-md-2 col-sm-4 col-xs-12">
+                            <div class="item-news ">
+                                <img src="img/travel/bike.jpg">
+                                <h3>想骑车，又怕吸霾？可以看看这张城市健康对照表</h3>
+                                <p>“绿色出行”这个概念谈了挺久。散散步、骑骑车，听上去简单，不过不少人大概会被“雾霾天”吓回去。即使天气晴朗，低头查看 PM 2.5 值也已成了种默契。如果数字超过心理底线，去健身房遛一遛，或者打开空气净化器、躺在床上蹬几节空中自行车，似乎才是更理智的选择。 剑桥大学饮食活动研究中心（ Centre for Diet and Activity Research）的一群研究员对这件事有点好奇：假设一定要在雾霾天骑自行车出门，骑多久后雾霾带来的危害会超过锻炼带来的益处？</p>
+                            </div>
+                        </div>
+                        <div class="item-padding col-md-2 col-sm-4 col-xs-12">
+                            <div class="item-news ">
+                                <img src="img/travel/chang.jpg">
+                                <h3>《长乐路》：一个美国记者眼中的上海街市和生活</h3>
+                                <p>罗伯·施密茨（Rob Schmitz）第一次到中国来是在 1996 年，当时他作为和平工作队（Peace Corps）的一员前往四川从事志愿活动。2010 年，他定居上海，成为美国公共媒体项目的市场记者。在决心要写一本关于中国的书时，他没有选择自己报导过的那些更具中国特色的地方，而是将目光投向了他居住的街区。《长乐路：一条上海马路上的大城市梦》（Street of Eternal Happiness: Big City Dreams Along a Shanghai Road）记述了他在这条原法租界角落的马路上结识的人们的生活，他们一家就居住在这里。</p>
+                            </div>
+                        </div>
+                        <div class="item-padding col-md-2 col-sm-4 col-xs-12">
+                            <div class="item-news ">
+                                <img src="img/travel/newsy.jpg">
+                                <h3>纽约中央公园重新开放一处自然保护区，它一直鲜为人知</h3>
+                                <p>在菲奥雷洛·亨利·拉瓜迪亚（Fiorello H. La Guardia）还担任纽约市市长，富兰克林·罗斯福（Franklin D. Roosevelt）还是美国总统的时候，这里便一直是纽约市一处鲜为“人”知的神秘境地，因为除了迁徙的候鸟，偶尔闯入的土狼和紫藤等恼人的外来入侵植物，这片位于中央公园、占地 1.6 公顷的半岛一直没有工作人员打理，也不对公众开放。 至少没有在官方意义上对外开放。 现在，这片自然保护区正逐步向公众揭露其神秘面目。自 1930 年代以后，这里从未定期向公众开放；如今，它将会在 6 月 30 日前每周 3 天中的下午 2 时到 5 时， 以及 7 月 1 日至 8 月 31 日期间每周 4 天的不同时间段向公众开放。</p>
+                            </div>
+                        </div>
+                        <div class="item-padding col-md-2 col-sm-4 col-xs-12">
+                            <div class="item-news ">
+                                <img src="img/travel/maya.jpg">
+                                <h3>「这世界」15岁少年发现玛雅古城，科学家们怎么看？</h3>
+                                <p>昨天有一个非常热门的故事，说一名 15 岁的少年通过自己的研究发现了玛雅古城位置和天空星座的映射关系，并利用这套原理找出了一座失落的玛雅古城。因为有一种特了不起的“自古英雄出少年”感，这个故事在社交媒体上被广泛传播。 不过，这个故事或许没有那么完美。因为随着这个故事越传越广，提出质疑和否定的科学家也越来越多。 首先还是交代一下故事的背景吧。 那个备受关注的 15 岁少年名叫威廉（William Gadoury），来自加拿大的魁北克。威廉从小就对玛雅文明感兴趣，于是在家上网的时候就会经常去学习和研究一些古玛雅的资料。</p>
+                            </div>
+                        </div>
+                        <div class="item-padding col-md-2 col-sm-4 col-xs-12">
+                            <div class="item-news ">
+                                <img src="img/travel/a.jpg">
+                                <h3>阿联酋准备堆一座人工山，为了能有点水用</h3>
+                                <p>中东国家不按钱来分的话，可以分三类，一类是水资源相对过剩的国家，比如包括伊拉克、伊朗等；水资源刚好够用的国家，如埃及等；水资源匮乏的国家，如以色列、阿联酋等。长期以来，这里除了战争和石油，就是缺少水资源。 最近，阿联酋想出了一个靠人造山的方法来获取多点水用。 根据 《Arabian Business》的报告，阿联酋跟美国大学大气研究联盟合作，正在分析山体类型对天气的影响，寻找合适的高度和坡度，试图在阿联酋境内找到一个合适的地点进行人工造山。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 结束 旅游 -->
+                <div class="technology item">
+                    <div class="item-title col-md-12">
+                        <h2>设计</h2>
+                    </div>
+                    <div class="item-content">
+                        <div class="item-padding col-md-2 col-sm-4 col-xs-12">
+                            <div class="item-news ">
+                                <img src="img/design/tuerqi.jpeg">
+                                <h3>这个在土耳其广场上的凉亭，是挂满绿植的“空中花园”</h3>
+                                <p>土耳其首都伊斯坦布尔奥塔科伊码头广场（Ortaköy Square）最近出现了一个悬挂绿植的装置。植物都装在布袋中，每两袋由一根绳索的两头牵引着，挂在黑色钢管做的外框架上，也形成了一片自然的乘凉处。不少人都坐在黑色外框架下搭建的简易座位上闲谈，也有小孩在跳跃的阴影里穿梭，就像是一片空中花园。 “如果在广场上植入一片花园，就会加重本已拥挤的人行空间。”当地的建筑事务所 SO? 称，他们因而想要做一个悬挂的花园，让出了人行通道，也有遮阳的作用。绿植装置的背后就是蓝天白云和蓝色的河水，非常通透，挂在其中的植物就像是摇曳的风铃，保持了海滩的一派闲散自由。</p>
+                            </div>
+                        </div>
+                        <div class="item-padding col-md-2 col-sm-4 col-xs-12">
+                            <div class="item-news ">
+                                <img src="img/design/jing.jpg">
+                                <h3>北京胡同里这家西餐厅，菜品和空间风格看着都不错</h3>
+                                <p>日本设计事务所 ODD（Okamoto Deguchi Design）是个与胡同颇有些缘分的工作室。 两年前，ODD 曾策划了一项提升流浪动物生存环境的“猫儿胡同”项目，在传统的胡同屋顶上，把木材设计成 1/4 圆柱体的形状，使其底部可以卡在屋顶瓦片之间的凹槽中，顶部为半开放式设计，底部设有排水孔以避免积水，为猫咪提供一处安身之所。 最近，在充斥着各色餐厅、咖啡馆、杂货铺的北京五道营胡同，ODD 参与设计了一间名为 CHI 的西餐厅，被来店的客人形容为“有些古旧的工业风”。而同样位于五道营胡同的藏红花餐厅，设计也是出自 ODD 之手。</p>
+                            </div>
+                        </div>
+                        <div class="item-padding col-md-2 col-sm-4 col-xs-12">
+                            <div class="item-news ">
+                                <img src="img/design/wumei.jpg">
+                                <h3>想住物美价廉的老房子 Airbnb 吗，请登录这个网站</h3>
+                                <p>见多了 Airbnb 上风格各异的房子，出国旅行挑选住地还有更好玩的打开方式。 Landmark Trust 是英国一家慈善机构地标信托机构，成立于 1965 年。创始人夫妇 John Smith 和 Christine 为了拯救那些被国家名胜古迹信托机构（National Trust）忽略的小型遗址，早在 50 年前就开始了他们的收购改造之旅。 他们将这些历史建筑重新装修后，改造成度假屋，其中既有中世纪的城堡，哥特式的庙宇，甚至连废弃的火车站都有。更值得一提的是，Landmark Trust 将这些度假屋以低于酒店和 Airbnb 的价格出租给游客，比如在意大利的别墅住一晚只需花 20 美元。</p>
+                            </div>
+                        </div>
+                        <div class="item-padding col-md-2 col-sm-4 col-xs-12">
+                            <div class="item-news ">
+                                <img src="img/design/bian.jpg">
+                                <h3>这个很现代的设计，可以让传统棕榈叶编织变酷</h3>
+                                <p>来自墨西哥城的设计师 Moisés Hernández 同时也是 CENTRO 艺术与设计学校的教授，他一向致力于推动本国的设计作品。在他本人经营的店铺 Diario 内陈列着众多独特的墨西哥制造——例如几年前亮相的深浅亮蓝色桌布等——每一件作品都是对传统手作的全新诠释。在最新作品 Palm Project 中 Hernández 继续努力将现代设计元素融入传统工艺品。</p>
+                            </div>
+                        </div>
+                        <div class="item-padding col-md-2 col-sm-4 col-xs-12">
+                            <div class="item-news ">
+                                <img src="img/design/de.jpeg">
+                                <h3>德国化工公司在上海开设设计咨询，帮助小众设计量产</h3>
+                                <p>5 月 31 日，德国化工企业巴斯夫（BASF）在巴斯夫亚太创新园（上海）成立了设计咨询中心 designfabrik®，主要面向设计咨询公司或公司里的设计师提供设计服务咨询，他们展示了巴斯夫最新研发的材料样本以及运用巴斯夫材料的经典设计品，其中包括与阿迪达斯合作的跑鞋 Energy Boost，法国设计组合 Bouroullec 兄弟的植物椅（Vegetal）。 巴斯夫是一家 B2B 公司，其产品应用极其广泛，主要竞争对手包括陶氏化学和 3M。它们用元素周期表命名设计咨询中心里的各种房间，考虑到企业定位，这倒是恰如其分。</p>
+                            </div>
+                        </div>
+                        <div class="item-padding col-md-2 col-sm-4 col-xs-12">
+                            <div class="item-news ">
+                                <img src="img/design/lvxing.jpeg">
+                                <h3>这家专门提供旅行用品的门店，综合了日式和北欧的简洁</h3>
+                                <p>还记得那个做旅行箱的品牌 Away 吗？创始人 Jen Rubio 和 Stephanie Korey 从眼镜电商 Warby parker 离职后，设计了一款平价而耐用的旅行箱，内置充电装置，适合年轻人使用。在当时，她们两人就想将 Away 发展成做旅行用品的生活方式品牌，但与开发更多产品不同的是，她们先在纽约开了一家概念店。 这家店开在了纽约拉斐特街（Lafayette St），它体现出店主人对北欧风格的喜爱。前后两个入口分别代表着“斯德哥尔摩”和“东京”，相应的，店内也被切成左右两半，一半是红砖墙，用浅色的木材做的展示台，暗示着欧洲的建筑风格，另一半是纯白色的墙面地板，搭配白瓷砖一样的展示柜台，显得更极简。当你站在店的中间，似乎能看到瑞典和日本两种崇尚简洁的设计风格微妙的区别和统一。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 结束 设计 -->
+            </div>
+        </div>
+        <!-- 开始探索 -->
+        <div class="explore">
+            <div class="elplore-section">
+                <div class="elplore-section-header">
+                    <div class="heading">科技与科学</div>
+                </div>
+                <div class="row elplore-section-title ">
+                    <div class="title-list col-md-2 col-sm-4 col-xs-6">
+                        <img src="img/explore/tel/original.jpg">
+                        <div class="title-head">
+                            <h3>TechCrunch中国</h3>
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="title-list col-md-2 col-sm-3 col-xs-6">
+                        <img src="img/explore/tel/ifanr.jpg">
+                        <div class="title-head">
+                            <h3>爱范儿</h3>
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="title-list col-md-2 col-sm-3 col-xs-6">
+                        <img src="img/explore/tel/zhihu.png">
+                        <div class="title-head">
+                            <h3>知乎每日精选</h3>
+                            <span>知乎</span>
+                        </div>
+                    </div>
+                    <div class="title-list col-md-2 col-sm-3 col-xs-6">
+                        <img src="img/explore/tel/guoke.jpg">
+                        <div class="title-head">
+                            <h3>果壳网</h3>
+                            <span>果壳</span>
+                        </div>
+                    </div>
+                    <div class="title-list col-md-2 col-sm-3 col-xs-6">
+                        <img src="img/explore/tel/pt.jpg">
+                        <div class="title-head">
+                            <h3>PingWest中文网</h3>
+                            <span>PingWest</span>
+                        </div>
+                    </div>
+                    <div class="title-list col-md-2 col-sm-3 col-xs-6">
+                        <img src="img/explore/tel/ke.jpg">
+                        <div class="title-head">
+                            <h3>36氪</h3>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="elplore-section">
+                <div class="elplore-section-header">
+                    <div class="heading">商业</div>
+                </div>
+                <div class="row elplore-section-title ">
+                    <div class="title-list col-md-2 col-sm-3 col-xs-6">
+                        <img src="img/explore/company/peng.jpg">
+                        <div class="title-head">
+                            <h3>商业周刊中文版APP</h3>
+                            <span>iBloomberg</span>
+                        </div>
+                    </div>
+                    <div class="title-list col-md-2 col-sm-3 col-xs-6">
+                        <img src="img/explore/company/cai.jpeg">
+                        <div class="title-head">
+                            <h3>财新网</h3>
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="title-list col-md-2 col-sm-3 col-xs-6">
+                        <img src="img/explore/company/hafo.jpg">
+                        <div class="title-head">
+                            <h3>哈佛商业评论中文版</h3>
+                            <span>哈佛商业评论中文版</span>
+                        </div>
+                    </div>
+                    <div class="title-list col-md-2 col-sm-3 col-xs-6">
+                        <img src="img/explore/company/ft.jpg">
+                        <div class="title-head">
+                            <h3>FT中文网</h3>
+                            <span>英国《金融时报》，FT中文网</span>
+                        </div>
+                    </div>
+                    <div class="title-list col-md-2 col-sm-3 col-xs-6">
+                        <img src="img/explore/company/huaer.jpg">
+                        <div class="title-head">
+                            <h3>华尔街见闻</h3>
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="title-list col-md-2 col-sm-3 col-xs-6">
+                        <img src="img/explore/company/lin.jpg">
+                        <div class="title-head">
+                            <h3>LINKEDIN领英洞察</h3>
+                            <span>LinkedIn</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="elplore-section">
+                <div class="elplore-section-header">
+                    <div class="heading">生活与家居</div>
+                </div>
+                <div class="row elplore-section-title ">
+                    <div class="title-list col-md-2 col-sm-3 col-xs-6">
+                        <img src="img/explore/life/Dwell.jpg">
+                        <div class="title-head">
+                            <h3>Dwell</h3>
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="title-list col-md-2 col-sm-3 col-xs-6">
+                        <img src="img/explore/life/guoku.jpeg">
+                        <div class="title-head">
+                            <h3>果库</h3>
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="title-list col-md-2 col-sm-3 col-xs-6">
+                        <img src="img/explore/life/shenye.jpg">
+                        <div class="title-head">
+                            <h3>深夜谈吃</h3>
+                            <span>深夜谈吃</span>
+                        </div>
+                    </div>
+                    <div class="title-list col-md-2 col-sm-3 col-xs-6">
+                        <img src="img/explore/life/qingdan.jpeg">
+                        <div class="title-head">
+                            <h3>清单</h3>
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="title-list col-md-2 col-sm-3 col-xs-6">
+                        <img src="img/explore/life/wei.jpg">
+                        <div class="title-head">
+                            <h3>知味</h3>
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="title-list col-md-2 col-sm-3 col-xs-6">
+                        <img src="img/explore/life/xuan.jpg">
+                        <div class="title-head">
+                            <h3>生活优选</h3>
+                            <span>生活优选</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="elplore-section">
+                <div class="elplore-section-header">
+                    <div class="heading">艺术与文化</div>
+                </div>
+                <div class="row elplore-section-title ">
+                    <div class="title-list col-md-2 col-sm-3 col-xs-6">
+                        <img src="img/explore/art/zhishi.jpg">
+                        <div class="title-head">
+                            <h3>知识分子</h3>
+                            <span>知识分子</span>
+                        </div>
+                    </div>
+                    <div class="title-list col-md-2 col-sm-3 col-xs-6">
+                        <img src="img/explore/art/dou.jpg">
+                        <div class="title-head">
+                            <h3>豆瓣一刻</h3>
+                            <span>豆瓣一刻</span>
+                        </div>
+                    </div>
+                    <div class="title-list col-md-2 col-sm-3 col-xs-6">
+                        <img src="img/explore/art/cityzine.jpg">
+                        <div class="title-head">
+                            <h3>cityzine</h3>
+                            <span>cityzine</span>
+                        </div>
+                    </div>
+                    <div class="title-list col-md-2 col-sm-3 col-xs-6">
+                        <img src="img/explore/art/VICE.jpg">
+                        <div class="title-head">
+                            <h3>VICE中国</h3>
+                            <span>VICE中国</span>
+                        </div>
+                    </div>
+                    <div class="title-list col-md-2 col-sm-3 col-xs-6">
+                        <img src="img/explore/art/liu.jpg">
+                        <div class="title-head">
+                            <h3>留学</h3>
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="title-list col-md-2 col-sm-3 col-xs-6">
+                        <img src="img/explore/art/wefhua.jpg">
+                        <div class="title-head">
+                            <h3>文艺生活周刊</h3>
+                            <span>文艺生活周刊</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="elplore-section">
+                <div class="elplore-section-header">
+                    <div class="heading">旅行</div>
+                </div>
+                <div class="row elplore-section-title ">
+                    <div class="title-list col-md-2 col-sm-3 col-xs-6">
+                        <img src="img/explore/travel/lonely.jpg">
+                        <div class="title-head">
+                            <h3>Lonely Planet</h3>
+                            <span>Lonely Planet</span>
+                        </div>
+                    </div>
+                    <div class="title-list col-md-2 col-sm-3 col-xs-6">
+                        <img src="img/explore/travel/zang.jpg">
+                        <div class="title-head">
+                            <h3>赞那度旅行人生</h3>
+                            <span>赞那度旅行人生</span>
+                        </div>
+                    </div>
+                    <div class="title-list col-md-2 col-sm-3 col-xs-6">
+                        <img src="img/explore/travel/miao.jpg">
+                        <div class="title-head">
+                            <h3>妙计旅行</h3>
+                            <span>妙计旅行</span>
+                        </div>
+                    </div>
+                    <div class="title-list col-md-2 col-sm-3 col-xs-6">
+                        <img src="img/explore/travel/Travelzoo.jpg">
+                        <div class="title-head">
+                            <h3>Travelzoo旅游族</h3>
+                            <span>Travelzoo旅游族</span>
+                        </div>
+                    </div>
+                    <div class="title-list col-md-2 col-sm-3 col-xs-6">
+                        <img src="img/explore/travel/letu.jpg">
+                        <div class="title-head">
+                            <h3>乐途旅游网</h3>
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="title-list col-md-2 col-sm-3 col-xs-6">
+                        <img src="img/explore/travel/lv.jpg">
+                        <div class="title-head">
+                            <h3>旅游</h3>
+                            <span>旅游</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="elplore-section">
+                <div class="elplore-section-header">
+                    <div class="heading">设计</div>
+                </div>
+                <div class="row elplore-section-title ">
+                    <div class="title-list col-md-2 col-sm-3 col-xs-6">
+                        <img src="img/explore/design/Malt.jpg">
+                        <div class="title-head">
+                            <h3>Malt 麦芽</h3>
+                            <span>Malt 麦芽</span>
+                        </div>
+                    </div>
+                    <div class="title-list col-md-2 col-sm-3 col-xs-6">
+                        <img src="img/explore/design/KnewOne.jpeg">
+                        <div class="title-head">
+                            <h3>KnewOne精选</h3>
+                            <span>KnewOne精选</span>
+                        </div>
+                    </div>
+                    <div class="title-list col-md-2 col-sm-3 col-xs-6">
+                        <img src="img/explore/design/photo.jpg">
+                        <div class="title-head">
+                            <h3>摄影之友</h3>
+                            <span>摄影之友</span>
+                        </div>
+                    </div>
+                    <div class="title-list col-md-2 col-sm-3 col-xs-6">
+                        <img src="img/explore/design/VOICER.jpg">
+                        <div class="title-head">
+                            <h3>VOICER</h3>
+                            <span>VOICER</span>
+                        </div>
+                    </div>
+                    <div class="title-list col-md-2 col-sm-3 col-xs-6">
+                        <img src="img/explore/design/lixiang.jpg">
+                        <div class="title-head">
+                            <h3>理想生活实验室</h3>
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="title-list col-md-2 col-sm-3 col-xs-6">
+                        <img src="img/explore/design/Outside.jpg">
+                        <div class="title-head">
+                            <h3>Outside</h3>
+                            <span>Outside</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 结束探索 -->
+    </div>
+    <!-- start 模糊框 -->
+    <div class="read">
+        <div class="read-content container-fluid">
+            <img src="">
+            <h3></h3>
+            <p></p>
+        </div>
+    </div>
+    <!-- end 模糊框 -->
+    <script src='js/jquery-2.2.3.min.js'></script>
+    <script src='js/repeat.js'></script>
+    <script src='js/change.js'></script>
+    <script src='js/modal.js'></script>
+</body>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here <a href="https://guides.github.com/features/mastering-markdown/">using GitHub Flavored Markdown</a>, select a template crafted by a designer, and publish. After your page is generated, you can check out the new <code>gh-pages</code> branch locally. If you’re using GitHub Desktop, simply sync your repository and you’ll see the new branch.</p>
-
-<h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We’ve crafted some handsome templates for you to use. Go ahead and click 'Continue to layouts' to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved.</p>
-
-<h3>
-<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Creating pages manually</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can @mention a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor’s GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
-
-      <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/icoou/news">News</a> is maintained by <a href="https://github.com/icoou">icoou</a>.</span>
-
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
-      </footer>
-
-    </section>
-
-  
-  </body>
 </html>

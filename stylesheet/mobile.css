@@ -1,0 +1,11 @@
+.swiper-wrapper a{
+	height: 180px;
+}
+.swiper-wrapper a div h3 {
+    font-size: 20px;
+    line-height: 30px;
+}
+.arrow-left,
+.arrow-right{
+	display: inline;
+}

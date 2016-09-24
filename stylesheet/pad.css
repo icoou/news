@@ -1,0 +1,8 @@
+.swiper-wrapper a{
+	height: 300px;
+}
+
+.arrow-left,
+.arrow-right{
+	display: inline;
+}
